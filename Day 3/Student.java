@@ -10,7 +10,7 @@ public class Student extends College
     }
 
     void displayStudent(){
-        this.displayCollege();
+        displayCollege();
         System.out.println("Student Name: " + this.studentName);
         System.out.println("Student Code: " + this.studentCode);
     }

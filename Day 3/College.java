@@ -10,7 +10,7 @@ public class College extends University
     }
 
     void displayCollege(){
-        this.displayUniversity();
+        displayUniversity();
         System.out.println("College Name: " + collegeName);
         System.out.println("College Code: " + collegeCode);
     }
